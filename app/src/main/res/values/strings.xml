@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MovieSystem2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_moviedetails">Moviedetails</string>
+    <string name="movieurl">http://www.omdbapi.com/?t=</string>
+    <string name="movieformat"><![CDATA[&/y=&plot=full&r=json]]></string>
+    <string name="movietitleurl">http://www.omdbapi.com?s=</string>
+    <string name="title_activity_movie_list">MovieList</string>
+    <string name="title_activity_matched">MatchedActivity</string>
+    <string name="title_activity_complete_movie_details">CompleteMovieDetails</string>
+    <string name="title_activity_single_movie_actvity">SingleMovieActvity</string>
+    <string name="title_activity_my_party">MyParty</string>
+    <string name="title_activity_srch_view">SrchView</string>
+    <string-array name="contactarray">
+        <item>"mojo",
+                "0451754624",
+                "9871203289",
+                "88889797",
+                "mitul.manish@gmail.com",
+                "zendesk",
+                "Developer"</item>
+        <item>"fatjoe",
+                "0451754628",
+                "98712098289",
+                "8888988797",
+                "bijin.abraham@gmail.com",
+                "Zendesk",
+                "Business Analyst"</item>
+        <item>"Shalendra Sajwan",
+                "0451754628",
+                "98712098289",
+                "8888988797",
+                "shal.sajwan@gmail.com",
+                "ReInteractive",
+                ""</item>
+        <item>"ayres",
+                "0451754628",
+                "98712098289",
+                "8888988797",
+                "pal.sub@gmail.com",
+                "Podio",
+                ""</item>
+          <item>"boyce",
+                "0451754628",
+                "9834343434",
+                "8888988797",
+                "zinglui@gmail.com",
+                "Maxrer",
+                ""</item>
+        <item>"Adele",
+                "0451754624",
+                "9871203289",
+                "88889797",
+                "mitul.manish@gmail.com",
+                "pethomestay",
+                "Developer"</item>
+        <item>"Ruck",
+                "0451754628",
+                "98712098289",
+                "8888988797",
+                "bijin.abraham@gmail.com",
+                "Zendesk",
+                "Business Analyst"</item>
+        <item>"Sirius",
+                "0451754628",
+                "98712098289",
+                "8888988797",
+                "shal.sajwan@gmail.com",
+                "ReInteractive",
+                ""</item>
+        <item>"vinni",
+                "0451754628",
+                "98712098289",
+                "8888988797",
+                "pal.sub@gmail.com",
+                "Podio",
+                "Coding Ninja"</item>
+        <item>"shailen",
+                "04517546728",
+                "987120898289",
+                "888894q8797",
+                "zero@gmail.com",
+                "Mayer",
+                "Growth hacker"</item>
+        <item>"matthew",
+                "04574546728",
+                "987620898289",
+                "888594q8797",
+                "matthew@gmail.com",
+                "Mayer",
+                "Dotnet expert"</item>
+    </string-array>
+    
+</resources>

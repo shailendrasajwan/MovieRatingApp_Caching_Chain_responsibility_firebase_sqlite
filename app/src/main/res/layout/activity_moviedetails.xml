@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FFA500"
+    tools:context="com.example.shailen.moviesystem2.Moviedetails">
+
+    <com.android.volley.toolbox.NetworkImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/netimageView"
+        android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/anonymous"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cast"
+        android:id="@+id/Cast"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_below="@+id/ContentType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Director"
+        android:id="@+id/Director"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_below="@+id/Cast"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Release"
+        android:textColor="@android:color/white"
+        android:id="@+id/release_date"
+        android:paddingLeft="16dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/genre"
+        android:layout_alignLeft="@+id/ContentType"
+           />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text = "Genre"
+        android:textColor="@android:color/white"
+        android:id="@+id/genre"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/MovieTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:numStars="5"
+        android:stepSize="0.5"
+        style="@style/AppTheme"
+        android:layout_above="@+id/PartyButton"
+        android:layout_toRightOf="@+id/ContentType"
+        android:layout_toEndOf="@+id/ContentType" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Party"
+        android:id="@+id/PartyButton"
+        android:background="#40ffffff"
+        android:textColor="@android:color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:translationZ="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Title"
+        android:id="@+id/MovieTitle"
+        android:textColor="@android:color/white"
+        android:textSize="38dp"
+        android:layout_below="@+id/netimageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Content type"
+        android:id="@+id/ContentType"
+        android:textColor="@android:color/white"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"
+        android:layout_below="@+id/release_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Long Plot"
+        android:id="@+id/LongPlot"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/white"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="16dp"
+        android:layout_below="@+id/Director"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+
+
+</RelativeLayout>
